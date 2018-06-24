@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>da9fef88-cc91-4a74-9b0e-fb7f6dd42909</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RemoveDuplicate.py</StartupFile>
+    <StartupFile>Tuples.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Tuples.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="LearningPython.py" />
     <Compile Include="RemoveDuplicate.py">
       <SubType>Code</SubType>
