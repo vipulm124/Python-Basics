@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>da9fef88-cc91-4a74-9b0e-fb7f6dd42909</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LearningPython.py</StartupFile>
+    <StartupFile>Dictionary.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Dictionary.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tuples.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="LearningPython.py" />
+    <Compile Include="RemoveDuplicate.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
