@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>da9fef88-cc91-4a74-9b0e-fb7f6dd42909</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>OOPs\Inheritance.py</StartupFile>
+    <StartupFile>OOPS\Inheritance.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,10 +24,10 @@
     <Compile Include="Dictionary.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="OOPs\Inheritance.py">
+    <Compile Include="OOPS\Inheritance.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="OOPs\LearningClass.py">
+    <Compile Include="OOPS\LearningClass.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Tuples.py">
@@ -39,7 +39,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="OOPs\" />
+    <Folder Include="OOPS\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
