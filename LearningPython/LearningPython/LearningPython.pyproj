@@ -21,15 +21,29 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CheckPrime.py" />
     <Compile Include="Dictionary.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Divisor.py" />
+    <Compile Include="Fibonacci.py" />
+    <Compile Include="Function.py" />
+    <Compile Include="GuessingGame.py" />
+    <Compile Include="ListEnds.py" />
+    <Compile Include="ListLessThan.py" />
+    <Compile Include="ListOverlap.py" />
+    <Compile Include="ListRemoveDuplicates.py" />
+    <Compile Include="module1.py" />
+    <Compile Include="OddOrEven.py" />
     <Compile Include="OOPS\Inheritance.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="OOPS\LearningClass.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Prime.py" />
+    <Compile Include="StringComprehension.py" />
+    <Compile Include="StringLists.py" />
     <Compile Include="Tuples.py">
       <SubType>Code</SubType>
     </Compile>
